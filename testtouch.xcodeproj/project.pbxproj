@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A6C2A9F24ADC28300E24BB4 /* DemoViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C2A9E24ADC28300E24BB4 /* DemoViewController1.m */; };
 		7A9D40AE24A33FAD00428F8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9D40AD24A33FAD00428F8A /* AppDelegate.m */; };
-		7A9D40B124A33FAD00428F8A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9D40B024A33FAD00428F8A /* SceneDelegate.m */; };
-		7A9D40B424A33FAD00428F8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9D40B324A33FAD00428F8A /* ViewController.m */; };
 		7A9D40B724A33FAD00428F8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9D40B524A33FAD00428F8A /* Main.storyboard */; };
 		7A9D40BA24A33FAD00428F8A /* testtouch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A9D40B824A33FAD00428F8A /* testtouch.xcdatamodeld */; };
 		7A9D40BC24A33FB200428F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A9D40BB24A33FB200428F8A /* Assets.xcassets */; };
@@ -17,6 +16,8 @@
 		7A9D40C224A33FB200428F8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9D40C124A33FB200428F8A /* main.m */; };
 		7A9D40CC24A33FB200428F8A /* testtouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9D40CB24A33FB200428F8A /* testtouchTests.m */; };
 		7A9D40D724A33FB200428F8A /* testtouchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9D40D624A33FB200428F8A /* testtouchUITests.m */; };
+		7A9D40E624A33FFC00428F8A /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9D40E524A33FFC00428F8A /* CustomViewController.m */; };
+		7AF2AAE024B720BC00AB8D7D /* DemoViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2AADF24B720BC00AB8D7D /* DemoViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A6C2A9D24ADC28300E24BB4 /* DemoViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController1.h; sourceTree = "<group>"; };
+		7A6C2A9E24ADC28300E24BB4 /* DemoViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController1.m; sourceTree = "<group>"; };
 		7A9D40A924A33FAD00428F8A /* testtouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testtouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9D40AC24A33FAD00428F8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A9D40AD24A33FAD00428F8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7A9D40AF24A33FAD00428F8A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		7A9D40B024A33FAD00428F8A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		7A9D40B224A33FAD00428F8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7A9D40B324A33FAD00428F8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7A9D40B624A33FAD00428F8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A9D40B924A33FAD00428F8A /* testtouch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = testtouch.xcdatamodel; sourceTree = "<group>"; };
 		7A9D40BB24A33FB200428F8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +55,10 @@
 		7A9D40D224A33FB200428F8A /* testtouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testtouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9D40D624A33FB200428F8A /* testtouchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testtouchUITests.m; sourceTree = "<group>"; };
 		7A9D40D824A33FB200428F8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A9D40E424A33FFC00428F8A /* CustomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		7A9D40E524A33FFC00428F8A /* CustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		7AF2AADE24B720BC00AB8D7D /* DemoViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController2.h; sourceTree = "<group>"; };
+		7AF2AADF24B720BC00AB8D7D /* DemoViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +111,12 @@
 			children = (
 				7A9D40AC24A33FAD00428F8A /* AppDelegate.h */,
 				7A9D40AD24A33FAD00428F8A /* AppDelegate.m */,
-				7A9D40AF24A33FAD00428F8A /* SceneDelegate.h */,
-				7A9D40B024A33FAD00428F8A /* SceneDelegate.m */,
-				7A9D40B224A33FAD00428F8A /* ViewController.h */,
-				7A9D40B324A33FAD00428F8A /* ViewController.m */,
+				7A9D40E424A33FFC00428F8A /* CustomViewController.h */,
+				7A9D40E524A33FFC00428F8A /* CustomViewController.m */,
+				7A6C2A9D24ADC28300E24BB4 /* DemoViewController1.h */,
+				7A6C2A9E24ADC28300E24BB4 /* DemoViewController1.m */,
+				7AF2AADE24B720BC00AB8D7D /* DemoViewController2.h */,
+				7AF2AADF24B720BC00AB8D7D /* DemoViewController2.m */,
 				7A9D40B524A33FAD00428F8A /* Main.storyboard */,
 				7A9D40BB24A33FB200428F8A /* Assets.xcassets */,
 				7A9D40BD24A33FB200428F8A /* LaunchScreen.storyboard */,
@@ -271,10 +276,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A9D40C224A33FB200428F8A /* main.m in Sources */,
-				7A9D40B424A33FAD00428F8A /* ViewController.m in Sources */,
+				7A9D40E624A33FFC00428F8A /* CustomViewController.m in Sources */,
 				7A9D40BA24A33FAD00428F8A /* testtouch.xcdatamodeld in Sources */,
 				7A9D40AE24A33FAD00428F8A /* AppDelegate.m in Sources */,
-				7A9D40B124A33FAD00428F8A /* SceneDelegate.m in Sources */,
+				7AF2AAE024B720BC00AB8D7D /* DemoViewController2.m in Sources */,
+				7A6C2A9F24ADC28300E24BB4 /* DemoViewController1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,15 +449,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7JZN57NCEP;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7GZHY42TY5;
 				INFOPLIST_FILE = testtouch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = rtest.testtouch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testtouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = xiaoer.dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -460,15 +468,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7JZN57NCEP;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7GZHY42TY5;
 				INFOPLIST_FILE = testtouch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = rtest.testtouch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testtouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = xiaoer.dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

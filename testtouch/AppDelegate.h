@@ -12,7 +12,7 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (readonly, strong) NSPersistentCloudKitContainer *persistentContainer;
-
+@property (strong, nonatomic) UIWindow * window;
 - (void)saveContext;
 
 

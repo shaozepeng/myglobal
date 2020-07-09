@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  CustomViewController.h
 //  testtouch
 //
 //  Created by 泽鹏邵 on 2020/6/24.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
-
+@interface CustomViewController : UIViewController
+ 
 @end
 
+NS_ASSUME_NONNULL_END
