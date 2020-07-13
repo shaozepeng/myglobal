@@ -30,8 +30,8 @@
             filePath = "testtouch/DemoViewController3.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "202"
-            endingLineNumber = "202"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
             landmarkName = "-addAnimation:secondColor:thirdColor:foreColor:duration:"
             landmarkType = "7">
          </BreakpointContent>

@@ -9,6 +9,7 @@
 #import "CustomViewController.h"
 #import "DemoViewController1.h"
 #import "DemoViewController2.h"
+#import "DemoViewController3.h"
 
 @interface CustomViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -35,7 +36,7 @@ static CustomViewController *curVC = nil;
 - (NSArray *)listArray
 {
     if (!_listArray) {
-        _listArray = @[@"样式1(存边框闪烁)",@"样式2(闪烁小球)",@"样式3(对称移动变色光线)",@"开样式4(多个闪烁小球)"];
+        _listArray = @[@"样式1(存边框闪烁)",@"样式2(闪烁小球)",@"样式3(多个闪烁小球)",@"样式4(对称移动变色光线)",@"样式5(圆形多小球滚动菜单)"];
     }
     return _listArray;
 }
@@ -102,8 +103,11 @@ static CustomViewController *curVC = nil;
         DemoViewController2 *demo2 = [[DemoViewController2 alloc] init];
         [self.navigationController pushViewController:demo2 animated:YES];
     }else if (indexPath.row == 2){
-        //敬请期待
+        DemoViewController3 *demo3 = [[DemoViewController3 alloc] init];
+        [self.navigationController pushViewController:demo3 animated:YES];
     }else if (indexPath.row == 3){
+        //敬请期待
+    }else if (indexPath.row == 4){
         //敬请期待
     }
  }

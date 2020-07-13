@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7A6C2A9F24ADC28300E24BB4 /* DemoViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C2A9E24ADC28300E24BB4 /* DemoViewController1.m */; };
+		7A85FCAC24BC669E00A7FD86 /* DemoViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A85FCAB24BC669E00A7FD86 /* DemoViewController3.m */; };
+		7A85FCAF24BC673D00A7FD86 /* Qiu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A85FCAE24BC673C00A7FD86 /* Qiu.m */; };
 		7A9D40AE24A33FAD00428F8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9D40AD24A33FAD00428F8A /* AppDelegate.m */; };
 		7A9D40B724A33FAD00428F8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9D40B524A33FAD00428F8A /* Main.storyboard */; };
 		7A9D40BA24A33FAD00428F8A /* testtouch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A9D40B824A33FAD00428F8A /* testtouch.xcdatamodeld */; };
@@ -40,6 +42,10 @@
 /* Begin PBXFileReference section */
 		7A6C2A9D24ADC28300E24BB4 /* DemoViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController1.h; sourceTree = "<group>"; };
 		7A6C2A9E24ADC28300E24BB4 /* DemoViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController1.m; sourceTree = "<group>"; };
+		7A85FCAA24BC669E00A7FD86 /* DemoViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController3.h; sourceTree = "<group>"; };
+		7A85FCAB24BC669E00A7FD86 /* DemoViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController3.m; sourceTree = "<group>"; };
+		7A85FCAD24BC673C00A7FD86 /* Qiu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Qiu.h; sourceTree = "<group>"; };
+		7A85FCAE24BC673C00A7FD86 /* Qiu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Qiu.m; sourceTree = "<group>"; };
 		7A9D40A924A33FAD00428F8A /* testtouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testtouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9D40AC24A33FAD00428F8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A9D40AD24A33FAD00428F8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -117,6 +123,10 @@
 				7A6C2A9E24ADC28300E24BB4 /* DemoViewController1.m */,
 				7AF2AADE24B720BC00AB8D7D /* DemoViewController2.h */,
 				7AF2AADF24B720BC00AB8D7D /* DemoViewController2.m */,
+				7A85FCAA24BC669E00A7FD86 /* DemoViewController3.h */,
+				7A85FCAB24BC669E00A7FD86 /* DemoViewController3.m */,
+				7A85FCAD24BC673C00A7FD86 /* Qiu.h */,
+				7A85FCAE24BC673C00A7FD86 /* Qiu.m */,
 				7A9D40B524A33FAD00428F8A /* Main.storyboard */,
 				7A9D40BB24A33FB200428F8A /* Assets.xcassets */,
 				7A9D40BD24A33FB200428F8A /* LaunchScreen.storyboard */,
@@ -276,11 +286,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A9D40C224A33FB200428F8A /* main.m in Sources */,
+				7A85FCAC24BC669E00A7FD86 /* DemoViewController3.m in Sources */,
 				7A9D40E624A33FFC00428F8A /* CustomViewController.m in Sources */,
 				7A9D40BA24A33FAD00428F8A /* testtouch.xcdatamodeld in Sources */,
 				7A9D40AE24A33FAD00428F8A /* AppDelegate.m in Sources */,
 				7AF2AAE024B720BC00AB8D7D /* DemoViewController2.m in Sources */,
 				7A6C2A9F24ADC28300E24BB4 /* DemoViewController1.m in Sources */,
+				7A85FCAF24BC673D00A7FD86 /* Qiu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
